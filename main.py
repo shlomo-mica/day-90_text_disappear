@@ -3,8 +3,10 @@ import tkinter as tk
 from tkinter import ttk
 import time
 
-S = 11
 
+S = 11
+sm_t = smart_timer.TypingTimer()
+sm_t.run()
 
 class TimerApp:
     def __init__(self, root, text):
